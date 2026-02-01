@@ -1,5 +1,7 @@
 # hill-climbing
-This program implements the Hill Climbing algorithm to solve the Travelling Salesman Problem (TSP) using Python and Streamlit. It starts with a random tour and iteratively improves it by swapping cities to find a shorter route. The best neighboring solution is chosen at each step until no further improvement is possible. 
+This program implements the Hill Climbing algorithm to solve the Travelling Salesman Problem (TSP) using Python and Streamlit. It starts with a random tour and iteratively improves it by swapping cities to find a shorter route. The best neighboring solution is chosen at each step until no further improvement is possible.
+
+
 import random
 import streamlit as st
 import numpy as np
